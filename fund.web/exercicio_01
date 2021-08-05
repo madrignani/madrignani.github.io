@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Listas de convocados da Seleção Brasileira 2020</title>
+<meta charset = "utf-8"/>
+</head>
+
+<body>
+<h2>Listas de convocados da Seleção Brasileira 2020</h2>
+
+<dl>
+<dt>Goleiros</dt>
+<dd>1.Ederson</dd>
+<dd>2.Weverton</dd>
+<dd>3.Ivan</dd>
+</dl>
+<p>
+
+<dl>
+<dt>Zagueiros</dt>
+<dd>1.Thiago Silva</dd>
+<dd>2.Marquinhos</dd>
+<dd>3.Eder Militão</dd>
+<dd>4.Alex Sandro</dd>
+</dl>
+<p>
+
+<dl>
+<dt>Laterais</dt>
+<dd>1.Dani Alves</dd>
+<dd>2.Danilo</dd>
+<dd>3.Renan Lodi</dd>
+<dd>4.Alex Sandro</dd>
+</dl>
+<p>
+
+<dl>
+<dt>Meio Campistas</dt>
+<dd>1.Arthur</dd>
+<dd>2.Casemiro</dd>
+<dd>3.Fabinho</dd>
+<dd>4.Everton Ribeiro</dd>
+<dd>4.Bruno Guimarães</dd>
+</dl>
+<p>
+
+<dl>
+<dt>Atacantes</dt>
+<dd>1.Philippe Coutinho</dd>
+<dd>2.Gabriel Jesus</dd>
+<dd>3.Richarlison</dd>
+<dd>4.Roberto Firmino</dd>
+<dd>4.Gabigol</dd>
+<dd>4.Neymar</dd>
+<dd>4.Everton</dd>
+<dd>4.Bruno Henrique</dd>
+</dl>
+
+</body>
+</html>
