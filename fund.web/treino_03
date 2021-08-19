@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<title>Document</title>
+	<meta charset=UTF-8>
+	<link rel="stylesheet" href="treino_03_style.css">
+</head>
+<body>
+	<header>
+		<h1>MetroBiz</h1>
+		<p>Designed by Templated</p>
+		<nav>
+			<ul>
+				<li><a href='#'>Homepage</a></li>
+				<li><a href='#'>Our Clients</a></li>
+				<li><a href='#'>Jobs</a></li>
+				<li><a href='#'>Carrers</a></li>
+				<li><a href='#'>Diagnostics</a></li>
+			</ul>
+</nav>
+</header>
+	<section>
+		<div class= "box">
+			Caixa 1
+			<div>
+				<p>parágrafo de resumo</p>
+
+			</div>
+			<p>
+				conteúdo
+			</p>
+			<div class= box 
+</body>
+</html>
