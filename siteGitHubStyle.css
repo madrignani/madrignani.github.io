@@ -1,0 +1,41 @@
+
+body{
+	margin: 2;
+	padding-top: 0;
+	font-family: Verdana;
+	background-color: lightgray;
+
+}
+
+h2{
+	color: darkred;
+	text-align: left;
+	border: red;
+	border-width: 2;
+	padding-bottom: 05px;
+
+}
+
+.introducao{
+	float: left;
+	margin: 15px;
+	font-size: 0.95em;
+
+}
+
+.foto{
+	float: left;
+	border-style: solid ;
+	border-width: 1em;
+	border-color: darkred;
+}
+
+.atividades{
+	color: darkred;
+}
+
+address{
+	font-size: 0.70em;
+	color : grey;
+
+}
