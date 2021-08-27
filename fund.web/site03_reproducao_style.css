@@ -88,7 +88,7 @@ header li {
 
 main section {
 	width: 210px;
-	float: center;
+	float: left;
 	margin-right: 20px;
 	border: 2px;
 }
