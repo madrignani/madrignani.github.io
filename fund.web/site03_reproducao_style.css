@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	font-family: Verdana;
+}
+
+header {
+	background-color: lightgoldenrodyellow;
+	color: rgb(13, 44, 57); 
+	padding-top: 3px;
+}
+
+header h2 {
+	font-weight: normal;
+	font-size: 1.4em;
+}
+
+header p {
+	font-size: 1em;
+}
+
+header img {
+	float: left;
+	width: 200px;
+}
+
+header nav {
+	clear: left;
+	background-color: rgb(13, 42, 54);
+	padding: 5px 0;
+}
+
+header a {
+	color: hotpink;;
+	text-decoration: none;
+
+}
+
+header li {
+	display: inline;
+	padding: 0px 10px;
+	margin-right: 17px;
+
+}
+
+#logotipo {
+	font-size: 1em;
+	margin-top: 0;
+	padding-top: 5px;
+}
+
+.principal {
+	color: ghostwhite;
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#logotipo span {
+	color: hotpink;
+}
+
+#fundoImagem {
+	height: 320px;
+	width: 741px;
+	background: url(img/familiamada2.jpg);
+	border-style: solid ;
+	border-width: 1em;
+	border-color: black;
+}
+
+#slogan {
+	width: 580px;
+}
+
+.contato {
+	font-size: 0.8em;
+	border-radius: 15px;
+	position: absolute;
+	top:0;
+	right: -35px;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	width: 180px;
+	font-weight: bold;
+}
+
+main section {
+	width: 210px;
+	float: left;
+	margin-right: 20px;
+	border: 2px;
+}
+
+main img {
+	width: inherit;
+	height: 158px;
+	padding-right: 78px;
+}
