@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	font-family: verdana;
+}
+
+header{
+	background-color: rgb(33, 14, 0);
+	padding-top: 80px;
+	padding-bottom: 100px;
+	margin: 15px;
+}
+
+header h1{ 
+	margin: 35px;
+	color: white;
+	text-align: center;
+	font-size: 3em;
+}
+
+header a{
+	width: 700px;
+	margin: 0 auto;
+	position: relative;
+	color:  white;
+	text-transform: uppercase;
+}
+
+header li{
+	float: left;
+	width: 100px;
+	text-align: center;
+	list-style: none;
+	padding:  7px 15px;
+	font-size: 0.9em;
+}
+
+header ul{
+	padding-left: 330px;
+	text-align: center;
+}
+
+header a{
+	background-color: hotpink;
+}
+
+section {
+	width: 900px;
+	margin: auto;
+}
+
+.designed{
+	color: white;
+	text-align: center;
+	font-size: 0.8em;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.subtitle{
+	background-color: rgb(214, 70, 25);
+	color: black;
+	text-align: center;
+	margin:  15px;
+	padding-top: 50px;
+	padding-bottom: 130px;
+	width: auto;
+
+}
+
+.subtitle p{
+	font-size: 0.85em;
+	margin: 15px;
+
+}
+
+.subtitle h2{
+	font-size: 2.2em;
+}
+
+
+#marca{
+	font-size: 5em;
+}
+
+.box{
+	float: left;
+	width: 350px;
+	margin-right: 50px;
+}
+
+.box {
+	text-align: center;
+	width: 285px;
+	margin-right: 15px;
+	box-sizing: border-box;
+	padding: 50px 10px 15px;
+}
+
+.box p {
+	text-align: center;
+	font-size: 0.90em;
+}
+.box h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: rgb(110, 54, 32);
+}
