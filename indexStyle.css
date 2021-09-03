@@ -1,11 +1,8 @@
-@viewport{
-  width: device-width;
-  zoom: 1;
-}
-
 body{
 	font-family: Verdana;
 	background-color: lightgray;
+	widht: 1366px;
+	height: 768px;
 }
 
 h2{
