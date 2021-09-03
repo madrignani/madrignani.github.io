@@ -1,8 +1,10 @@
+html, body{
+		height: 100%;
+}
+
 body{
 	font-family: Verdana;
 	background-color: lightgray;
-	widht: 1366px;
-	height: 768px;
 }
 
 h2{
