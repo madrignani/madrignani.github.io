@@ -1,0 +1,163 @@
+/** caso não role tire o viewport 
+ * e coloque isso no body width: 1333px; height: 750px
+ * 
+ * <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+ * 
+ *@viewport{
+  width: device-width;
+  zoom: 1;
+}
+**/
+
+body{
+	font-family: courier;
+	background-color: rgb(250, 250, 290);
+	width: 1333px; 
+	height: 750px;
+}
+
+.title{
+	background-color: rgb(44, 44, 44);
+	text-align: center;
+	padding: 8.5px;
+	margin-top: -8px;
+	margin-right: -8px;
+	margin-left: -8px;
+	color: white;
+}
+
+.title h1{
+	font-size: 1.9em;
+	text-transform: uppercase;
+}
+
+header a{
+	color:  rgb(0, 0, 0);
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+header li{
+	float: left;
+	width: 240px;
+	text-align: center;
+	list-style: none;
+	padding:  7px 40.5px;
+	font-size: 0.9em;
+	background-color: rgb(170, 170, 150);
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 52.5px;
+	margin-top: -10px;
+}
+
+header ul{
+	padding-left: 0px;
+	text-align: center;
+}
+
+.subtitle{
+	background-color: rgb(44, 44, 44);
+	text-align: center;
+	margin-top: 58.5px;
+	margin-right: -8px;
+	margin-left: -8px;
+	padding-top: 0.1px;
+	padding-bottom: 0.1px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.95em;
+}
+
+.komarov1 img{
+	float: left;
+	padding-top: 15px;
+	padding-left: 1px;
+	width: 638px;
+	height: auto;
+}
+
+.who{
+	color: rgba(243,233,212,225);
+	background-color: rgba(97,25,16,255);
+	margin-left: 645px;
+}
+
+.who p, h3{
+	margin: 15px;
+	padding-top: 4.2px;
+	padding-bottom: 4.2px;
+}
+
+.who h3{
+	text-transform: uppercase;
+}
+
+.who p{
+	font-size: 1.012em;
+}
+
+.separator{
+	background-color: rgb(44, 44, 44);
+	margin-top: 25px;
+	margin-right: -8px;
+	margin-left: -8px;
+	padding-top: -1px;
+	padding-bottom: -1px;
+}
+
+.separator h2{
+	color: white;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.komarov2 img{
+	float: left;
+	margin-top: 3px;
+	padding-left: 5px;
+	width: 650px;
+	height: auto;
+}
+
+.komarov3 img{
+	float: right;
+	margin-top: 3px;
+	padding-right: 5px;
+	width: 649px;
+	height: auto;
+}
+
+.legImg{
+	background-color: rgba(58,56,27,255);
+	color:  rgba(243,233,212,225);
+	margin-top:  680px;
+	margin-left: 4.0px;
+	margin-right: 677px;
+}
+
+.legImg #txt01{
+	padding-left: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 15px;
+	text-align: left;
+}
+
+.legImg02{
+	margin-left: 678px;
+	margin-top: -250px;
+	margin-right: 4.0px;
+	background-color: rgba(59,30,13,255);
+	color: blue;
+}
+
+.legImg02 #txt02{
+	color: rgba(243,233,212,225);
+	padding-left: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 15px;
+	text-align: left;
+}
