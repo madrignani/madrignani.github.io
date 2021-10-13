@@ -26,6 +26,12 @@ body {
 	background-size: 5520px;
 }
 
+@media screen and (max-width: 2180px) {
+	body {
+		background-size: 2180px;
+	}
+}
+
 @media screen and (max-width: 1680px) {
 	body {
 		background-size: 1620px;
