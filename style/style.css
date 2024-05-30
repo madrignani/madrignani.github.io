@@ -167,6 +167,17 @@ footer a:hover {
 
 /* ############################################################################### */
 
+@media (min-width: 768px) {
+    #text,
+    #browse {
+        margin: 40px auto;
+        max-width: 1320px;
+    }
+    #header {
+        padding: 10px 50px;
+    }
+}
+
 @media screen and (max-width: 980px) {
     body {
         background-attachment: fixed;
@@ -184,8 +195,8 @@ footer a:hover {
     #text {
         font-size: 14px;
         flex-direction: column;
-        padding: 20px;
-        margin: 10px;
+        margin: 24px;
+        padding: 30px;
     }
     #text .details {
         margin-right: 0;
@@ -204,26 +215,11 @@ footer a:hover {
     }
 }
 
-@media (min-width: 768px) {
-    #header {
-        padding: 10px 50px;
-    }
-
-    #text,
-    #browse {
-        margin: 40px auto;
-        max-width: 1320px;
-    }
-}
-
 @media screen and (max-width: 980px) {
-    #text,
     #browse {
-        margin: 10px;
-    }
-
-    #browse {
-        font-size: 33px;
+        margin: 24px;
+        font-size: 27.4px;
+        padding: 30px;
     }
 
     #browse h3 {
@@ -233,7 +229,7 @@ footer a:hover {
 
 @media screen and (max-width: 980px) {
     footer {
-        font-size: 18px;
+        font-size: 22px;
     }
     
     .footer-column {
