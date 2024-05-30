@@ -168,20 +168,9 @@ footer a:hover {
 /* ############################################################################### */
 
 
+/* Alterações para dispositivos móveis */
 @media screen and (max-width: 980px) {
-    body {
-        background-attachment: fixed;
-        background-size: cover;
-    }
-}
-
-@media screen and (max-width: 736px) {
-    #header .title h2 {
-        font-size: 36px;
-    }
-}
-
-@media screen and (max-width: 980px) {
+    /* Alteração no tamanho da fonte do texto e outras modificações no layout */
     #text {
         font-size: 14px;
         flex-direction: column;
@@ -203,13 +192,29 @@ footer a:hover {
         margin-top: -6px;
         margin-bottom: 15px;
     }
+    /* Alteração no tamanho da fonte e estilo do título na seção "Projetos" */
+    #browse {
+        font-size: 21px;
+    }
+    #browse h3 {
+        font-size: 50px;
+    }
+    /* Alteração no tamanho da fonte do footer e largura das colunas */
+    footer {
+        font-size: 18px;
+    }
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
-@media (min-width: 768px) {
+/* Ajuste para dispositivos maiores, mantendo algumas modificações para dispositivos menores */
+@media screen and (min-width: 768px) {
+    /* Ajuste no padding do cabeçalho e largura máxima das seções "Texto" e "Projetos" */
     #header {
         padding: 10px 50px;
     }
-
     #text,
     #browse {
         margin: 40px auto;
@@ -217,28 +222,24 @@ footer a:hover {
     }
 }
 
+/* Consulta de mídia para corrigir a rolagem do fundo */
 @media screen and (max-width: 980px) {
-    #text,
-    #browse {
-        margin: 10px;
-    }
-
-    #browse {
-        font-size: 21px;
-    }
-
-    #browse h3 {
-        font-size: 50px;
+    body {
+        background-attachment: fixed;
+        background-size: cover;
     }
 }
 
+/* Ajuste no tamanho do título principal para dispositivos menores */
+@media screen and (max-width: 736px) {
+    #header .title h2 {
+        font-size: 36px;
+    }
+}
+
+/* Consulta de mídia para ajustar o footer em dispositivos menores */
 @media screen and (max-width: 980px) {
     footer {
         font-size: 18px;
-    }
-    
-    .footer-column {
-        width: 100%;
-        margin-bottom: 20px;
     }
 }
