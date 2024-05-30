@@ -9,12 +9,6 @@ body {
     backdrop-filter: blur(1.5px);
 }
 
-@media screen and (max-width: 980px) {
-    body {
-        background-size: cover;
-    }
-}
-
 #header {
     display: flex;
     justify-content: space-between;
@@ -50,12 +44,6 @@ body {
     font-size: 61px;
 }
 
-@media screen and (max-width: 736px) {
-    #header .title h2 {
-        font-size: 36px;
-    }
-}
-
 #text {
     font-size: 18.8px;
     padding: 30px;
@@ -83,21 +71,6 @@ body {
     height: auto;
     border: 2px solid #005b96;
     max-width: 100%;
-}
-
-@media screen and (max-width: 980px) {
-    #text {
-        flex-direction: column;
-        padding: 20px;
-    }
-    #text .details {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-    #text .picGiovanni img {
-        margin-left: 0;
-        width: 100%;
-    }
 }
 
 #text h3 {
@@ -191,10 +164,44 @@ footer a:hover {
     color: #ffa500;
 }
 
+
+/* ############################################################################### */
+
+
 @media screen and (max-width: 980px) {
-    .footer-column {
-        width: 100%;
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #header .title h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #text {
+        font-size: 14px;
+        flex-direction: column;
+        padding: 20px;
+        margin: 10px;
+    }
+    #text .details {
+        margin-right: 0;
         margin-bottom: 20px;
+    }
+    #text .picGiovanni img {
+        width: 100%;
+        display: block;
+        margin: 25px auto;
+    }
+    #text h3 {
+        font-size: 50px;
+        color: #005b96;
+        margin-top: -6px;
+        margin-bottom: 15px;
     }
 }
 
@@ -207,5 +214,31 @@ footer a:hover {
     #browse {
         margin: 40px auto;
         max-width: 1320px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #text,
+    #browse {
+        margin: 10px;
+    }
+
+    #browse {
+        font-size: 21px;
+    }
+
+    #browse h3 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    footer {
+        font-size: 18px;
+    }
+    
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
