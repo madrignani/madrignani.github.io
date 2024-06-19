@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab02 JS - EXERCÍCIO 09</title>
+</head>
+<body>
+    <h1>Análise de força da senha</h1>
+    <p>Digite uma senha na caixa abaixo para verificar sua força. A senha deve conter letras maiúsculas, letras minúsculas, números e caracteres especiais e possuir entre 8 e 12 caracteres.</p>
+    <form id="passwordForm">
+        <input type="password" placeholder="Digite sua senha" id="code" class="form-control passwordInput">
+        <input type="checkbox" id="showPassword">
+        <label for="showPassword">Exibir senha</label><br><br>
+        <span id="strength" class="badge displayBadge">SENHA FRACA</span><br>
+        <p id="charCount">Número de caracteres: 0</p>
+        <button type="submit">Verificar Força da Senha</button>
+    </form>
+
+    <p><a href="../lab02.html">Voltar ao menu principal</a></p>
+    <script src="ex09.js"></script>
+</body>
+</html>
