@@ -1,0 +1,49 @@
+body {
+    font-family: Afacad;
+    background-color: #f0f0f0; /* Cor de fundo geral */
+    color: #333; /* Cor do texto geral */
+    margin: 0;
+    padding: 0;
+}
+
+.projectList {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo da lista de exercícios */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 17px;
+}
+
+.projectList h1 {
+    margin-bottom: 15px;
+    color: #005b96; /* Cor do título */
+}
+
+.projectList p {
+    margin-bottom: 15px;
+}
+
+.projectList ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projectList li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+footer a {
+    color: #005b96; /* Cor dos links no rodapé */
+}
